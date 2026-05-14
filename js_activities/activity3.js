@@ -7,16 +7,16 @@ var height;
 height = 9;
 
 if (height > 0 && height % 2 === 1) {
-    for (var i = 0; i < height; i++) {
-        var line = "";
-        for (var j = 0; j < height; j++) {
-            if (j === i || j === height - 1 - i) {
-                line += "*";
+    for (var column = 0; column < height; column++) {
+        var printRow = "";
+        for (var row = 0; row < height; row++) {
+            if (row === column || row === height - 1 - column) {
+                printRow += "*";
             } else {
-                line += " ";
+                printRow += " ";
             }
         }
-        console.log(line);
+        console.log(printRow);
     }
 }else {
     console.log("Invalid input. Please enter a positive odd number.");
