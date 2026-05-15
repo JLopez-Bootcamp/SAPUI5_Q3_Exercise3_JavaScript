@@ -80,6 +80,15 @@
         "<node_internals/**>"
       ],
       "type": "node"
+    },
+    {
+      "name": "Launch Activity 4",
+      "program": "${workspaceFolder}/js_activities/activity4.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals/**>"
+      ],
+      "type": "node"
     }
   ]
 }

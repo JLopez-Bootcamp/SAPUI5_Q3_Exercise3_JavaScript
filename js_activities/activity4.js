@@ -1,0 +1,2 @@
+/*Create a function that calculates the perimeter of a triangle. Function should return the 
+value of perimeter. */
