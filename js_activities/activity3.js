@@ -4,7 +4,7 @@ assuming it is not a negative number and ‘height’ is an odd number.
 Sample input: var height = 5; */
 
 var height;
-height = 9;
+height = 5;
 
 if (height > 0 && height % 2 === 1) {
     for (var column = 0; column < height; column++) {
